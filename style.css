@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: navy;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    border-bottom: 1px dashed navy;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: royalblue;
+    margin: 30px;
+}
+
+.gallery {
+    display: flex;
+    width: 960px;
+    justify-content: center;
+}
